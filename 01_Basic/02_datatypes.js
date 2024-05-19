@@ -1,4 +1,4 @@
-"use strict";//treat all js code as a new version
+"use strict";//treat all js code as a new version ,
 
 //alert(3+3) //we are usoing nodr js not broswer
 
