@@ -12,7 +12,7 @@ console.log(score === scoreValue);//True
 const isLoggedIn=False;*/
 
 
-const id=Symbol('123')
+/*const id=Symbol('123')
 const anotherId=Symbol('123')
 console.log(id===anotherId);
 
@@ -27,4 +27,29 @@ console.log(typeof null);        // "object" (a well-known quirk in JavaScript)
 console.log(typeof Symbol('id'));// "symbol"
 console.log(typeof {});          // "object"
 console.log(typeof []);          // "object"
-console.log(typeof function(){});// "function"
+console.log(typeof function(){});// "function"*/
+
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++
+//Stack(Premitive)    ,Heap(Non-primitive)
+
+let myYoutube ="ram"
+let anothername=myYoutube   //here we seen thye stack are work because only its copy
+anothername="hari"
+console.log(myYoutube);
+console.log(anothername);
+
+
+//Heap  //
+let userOne= {
+    email: "user@gamil.com",
+    upi: "user@ybl"
+}
+let userTwo=userOne
+userTwo.email="ramama@gamil.com"  //Here wer use stack so that the reference are use 
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
