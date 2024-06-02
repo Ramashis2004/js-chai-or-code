@@ -46,3 +46,14 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
 //console.log(tinderUser.hasOwnpropety('isLoggedin'));  //It can't understand
+
+
+const course={
+    coursename: "js in hindi",
+    price:"999",
+    courseInstuctor:"Hare krishna"
+}
+//console.log(course.courseInstuctor);
+
+const {courseInstuctor: instructor}=course//Here we see the destructure the code
+console.log(instructor);
